@@ -46,7 +46,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">My Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">My Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact me</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/blogs/index.html">My Blogs</a>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/blogs/index.html"
+                            target="_blank">My Blogs</a>
                     </li>
                 </ul>
             </div>
@@ -68,10 +69,8 @@
                 <a class="btn btn-primary js-scroll-trigger new-button" href="#about" data-aos="fade-up"
                     data-aos-delay="600" style="  border: 3px solid black; font-size: 20px;  color: black;">Get
                     Started</a>
-
             </div>
         </div>
-
     </header>
     <hr>
     <!-- About-->
@@ -115,7 +114,7 @@
                 <div class="col-xl-8 col-lg-7" data-aos="fade-up">
                     <a href="../blogs/index.html"><img class="img-fluid mb-3 mb-lg-0"
                             src="https://i.pinimg.com/originals/01/9b/48/019b48c90c1c2179057ee7b09a8387a3.jpg"
-                            alt="" /></a>
+                            target="_blank" alt="" /></a>
                     <div class="centered" style="color: white; font-size: 40px;">Mr. An Droid</div>
                 </div>
                 <div class="col-xl-4 col-lg-5" data-aos="fade-left" data-aos-delay="500">
@@ -281,27 +280,40 @@
         </center><br>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-md-3 mb-3 mb-md-0" data-aos="fade-up">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fab fa-github text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Github</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">Mihir06121</div>
+                            <div class="small text-black-50"><a href="https://github.com/Mihir06121"
+                                    target="_blank">Mihir06121</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up">
+                <div class="col-md-3 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">LinkedIn</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">
+                                <a href="https://www.linkedin.com/in/mihir-panchal-5167811a4/"
+                                    target="_blank">mihir-panchal</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="400">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Email</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50"><a href="#!">mp06121@gmail.com</a></div>
+                            <div class="small text-black-50"><a href="#!" target="_blank">mp06121@gmail.com</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-md-3 mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="600">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
@@ -355,7 +367,7 @@
 
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container">Copyright © mihirpanchal.com 2020</div>
+        <div class="container">Copyright © <a href="https://mihirpanchal.com">mihirpanchal.com</a> 2020</div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -371,11 +383,11 @@
     <script>
         var time = new Date().getHours();
         var greeting;
-        if (time < 10) {
+        if (time <= 10) {
             greeting = "Good morning";
-        } else if (time < 20) {
+        } else if (time <= 17) {
             greeting = "Good day";
-        } else {
+        } else if (time <= 20) {
             greeting = "Good evening";
         }
         document.getElementById("greetings").innerHTML = greeting;
