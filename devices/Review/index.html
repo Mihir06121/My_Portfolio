@@ -26,11 +26,9 @@
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Mr. An Droid</a>
-            <button
-                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                Menu
+                aria-expanded="false" aria-label="Toggle navigation" style="border: 2px solid teal;">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -48,23 +46,26 @@
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead text-secondary text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
             <img class="masthead-avatar mb-5" src="https://image.flaticon.com/icons/svg/183/183315.svg" alt=""
                 data-aos="zoom-in" />
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading mb-0"><span data-aos="fade-in" data-aos-delay="1000">Mr</span>. <span
-                    data-aos="zoom-up" data-aos-delay="2000">An</span> <span data-aos="zoom-in-up"
-                    data-aos-delay="1500">Droid</span></h1>
+            <h1 class="masthead-heading mb-0"><span data-aos="fade-in" data-aos-delay="1000">Mr</span>.
+                <span data-aos="zoom-up" data-aos-delay="2000">An</span>
+                <span data-aos="zoom-in-up" data-aos-delay="1500">Droid</span></h1>
             <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line" data-aos="fade-right"></div>
-                <div class="divider-custom-icon" data-aos="fade-in"><i class="fab fa-android"></i></div>
-                <div class="divider-custom-line" data-aos="fade-left"></div>
-            </div>
+            <hr class="divider-custom" data-aos="flip-right" style="background-color: teal;">
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0"><span data-aos="fade-out">Android</span> OS & <span data-aos="fade-in">Devices</span> Review</p>
+            <p class="masthead-subheading font-weight-light mb-0">
+                <h2>
+                    <span data-aos="fade-up" data-aos-delay="1000">Android</span>
+                    <span data-aos="fade-up" data-aos-delay="500">OS &</span>
+                    <span data-aos="fade-up" data-aos-delay="2000">Devices</span>
+                    <span data-aos="fade-up" data-aos-delay="1500">Review</span>
+                </h2>
+            </p>
         </div>
     </header>
     <!-- Software Section -->
@@ -74,9 +75,9 @@
             <h2 class="page-section-heading text-center text-secondary mb-0">Android and Custom OS over Android</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
                 <div class="divider-custom-icon"><i class="fab fa-android"></i></div>
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
             </div><br>
             <!-- devices Grid Items-->
             <div class="row">
@@ -88,7 +89,7 @@
                                     class="fab fa-android fa-3x"></i></div>
                         </div>
                         <a href="./stockandroid.html">
-                            <div class="card bg-white text-secondary">
+                            <div class="card bg-white text-secondary" data-aos="zoom-in-up">
                                 <img class="card-img" style="height: 200px;"
                                     src="https://xtremedroid.com/wp-content/uploads/2019/12/Download-Android-9-Pie-Custom-ROM-Lineage-OS-16-AOSP-9-ROM-Ports-Pixel-Experience-min.png"
                                     alt="Card image">
@@ -110,7 +111,7 @@
                                     class="fab fa-android fa-3x"></i></div>
                         </div>
                         <a href="./customandroid.html">
-                            <div class="card bg-white text-secondary">
+                            <div class="card bg-white text-secondary" data-aos="zoom-in-up" data-aos-delay="500">
                                 <img class="card-img" style="height: 200px;"
                                     src="https://s3.amazonaws.com/ckl-website-static/wp-content/uploads/2017/09/interfacebuilder_banner2-1280x680.png"
                                     alt="Card image">
@@ -156,18 +157,20 @@
                     </div>
                 </div> -->
             </div>
+            <hr class="divider-custom" data-aos="flip-right" style="background-color: #1abc9c;">
         </div>
     </section>
     <!-- Devices Section-->
     <section class="page-section devices" id="devices">
         <div class="container">
             <!-- Devices Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Devices</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="zoom-in-up">
+                Devices</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
                 <div class="divider-custom-icon"><i class="fab fa-android"></i></div>
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
             </div>
             <!-- devices Grid Items-->
             <div class="row">
@@ -232,20 +235,18 @@
                     </div>
                 </div> -->
             </div>
+            <hr class="divider-custom" data-aos="flip-right" style="background-color: #1abc9c;">
         </div>
     </section>
     <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
+    <!-- <section class="page-section text-white mb-0" id="about">
         <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary" data-aos="zoom-in-up">About</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line" data-aos="flip-left"></div>
                 <div class="divider-custom-icon"><i class="fab fa-android"></i></div>
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
             </div>
-            <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-4 ml-auto">
                     <p class="lead"></p>
@@ -254,21 +255,21 @@
                     <p class="lead"></p>
                 </div>
             </div>
-            <!-- About Section Button-->
             <div class="text-center mt-4">
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Contact Section-->
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="zoom-in-up">
+                Contact Me</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
                 <div class="divider-custom-icon"><i class="fab fa-android"></i></div>
-                <div class="divider-custom-line"></div>
+                <div class="divider-custom-line" data-aos="flip-left"></div>
             </div>
             <!-- Contact Section Form-->
             <div class="row">

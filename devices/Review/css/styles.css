@@ -9989,7 +9989,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10124,7 +10124,7 @@ h3 {
 }
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
